@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+#headSection
+{
+  background-color: rgb(71, 77, 83);
+  height: 150px;
+  border: 15px solid rgb(71, 77, 90);
+}
+#bodySection
+{
+  border: 15px solid rgb(71, 77, 90);
+  border-top-style: none;
+}
+
+h1
+{
+  color: rgb(255, 255, 255);
+}
