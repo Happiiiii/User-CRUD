@@ -10,12 +10,14 @@ import { ViewblogComponent } from './viewblog/viewblog.component';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TitleComponent } from './title/title.component';
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     EditComponent,
-    ViewblogComponent
+    ViewblogComponent,
+    TitleComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,18 @@
+#bodySection
+{
+  padding-top: 1em;
+  border: 15px solid rgb(71, 77, 90);
+  border-top-style: none;
+}
+
+.head
+{
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+}
+.home
+{
+  position: relative;
+}

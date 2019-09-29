@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quantico&display=swap');
 *
 {
   margin: 0;
@@ -14,9 +16,20 @@
 {
   border: 15px solid rgb(71, 77, 90);
   border-top-style: none;
+  border-bottom: 100px solid rgb(71, 77, 90);
 }
 
 h1
 {
+  font-family: 'Russo One', sans-serif;
   color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
 }
+
+th ,label
+{
+  font-family: 'Quantico', sans-serif;
+  font-size: 2em;
+}
+

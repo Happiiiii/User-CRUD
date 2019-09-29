@@ -1,19 +1,9 @@
-<section class="py-5" id="headSection">
-  <div class="container" >
-    <div class="row">
-      <div class="col-12">
-        <h1 style="text-align: center;">Angular CRUD operation</h1>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="py-5" id="bodySection">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <form [formGroup]="Details" (submit)="submitData()">
-
           <div class="form-group">
             <label for="exampleInputEmail1">FirstName</label>
             <input
@@ -22,7 +12,7 @@
               formControlName="FirstName"
               id="examplename"
               aria-describedby="emailHelp"
-              placeholder="Enter Name"
+              placeholder="Enter the FirstName"
             />
           </div>
 
@@ -33,23 +23,22 @@
               class="form-control"
               formControlName="LastName"
               id="exampleInputPassword1"
-              placeholder="LastName"
+              placeholder="Enter the LastName"
             />
           </div>
-
           <div class="form-group">
-            <label for="exampleInputEmail1">Email Address</label>
+            <label for="exampleInputEmail1">Email</label>
             <input
-              type="email"
+              type="text"
               class="form-control"
               formControlName="Email"
               id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
+              placeholder="Enter Email Id"
             />
           </div>
 
-          <button type="submit" class="btn btn-success" routerLink="../viewblog">Add-Data</button> &nbsp;
+          <button type="submit" class="btn btn-success">Add-Details</button>
+          &nbsp;
         </form>
       </div>
     </div>

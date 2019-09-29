@@ -25,6 +25,7 @@ export class HomeComponent implements OnInit {
       .toPromise()
       .then((response) => {
         this.Details = response;
+        this.router.navigate(['viewblog']);
       }, (error) => {
         console.log(error);
       });
